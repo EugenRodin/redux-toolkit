@@ -1,0 +1,37 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.counter {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.count {
+  margin: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(7, 54, 23);
+}
+
+.increment {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  color: green;
+}
+
+.decrement {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  color: rgb(28, 0, 128);
+}
